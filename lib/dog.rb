@@ -5,12 +5,10 @@ class Dog
 
   def initialize (name)
     @name = name
-    self.save
   end
 
-def self.name
-  @@name
-end
-
+  def self.all
+     @@all
+   end
 
 end
