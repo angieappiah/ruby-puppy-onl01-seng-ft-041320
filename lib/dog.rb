@@ -5,12 +5,10 @@ class Dog
 
   def initialize (name)
     @name = name
-    @@all << self.name
   end
 
 def self.all
   @@all = self.new
-
 end
 
 end
