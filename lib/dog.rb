@@ -10,6 +10,8 @@ class Dog
 
 def self
   @@all = dog.new
+  @all = dog.new
 end
+
 
 end
