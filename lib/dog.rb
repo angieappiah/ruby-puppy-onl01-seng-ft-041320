@@ -8,8 +8,8 @@ class Dog
     @@all << name
   end
 
-def self.all
-  @@all = self.new
+def self
+  @@all = dog.new
 end
 
 end
